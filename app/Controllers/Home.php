@@ -6,7 +6,7 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		$db      = \Config\Database::connect();
-		return view('welcome_message');
+		
+		return view('layout/password');
 	}
 }
